@@ -1,0 +1,262 @@
+@media (max-width: 1199px)
+    header
+        nav
+            .menu_link
+                font-size: 14px
+
+    .subheader
+        .phone_text
+            font-size: 11px
+        .phone
+            font-size: 18px
+            .point
+                bottom: 12px
+        .call_order
+            width: 130px
+            height: 42px
+            font-size: 12px
+            font-weight: 300
+
+    .main
+        &_header
+            font-size: 56px
+        &_subheader
+            font-size: 34px
+
+    .reason
+        &_desc
+            max-width: 312px
+
+    .mobile
+        &_wrap
+            width: 300px
+            height: 264px
+        &_text
+            font-size: 22px
+
+    footer
+        nav
+            .menu
+                width: 330px
+                &-1, &-2
+                    &_link
+                        font-size: 14px
+                &-2
+                    &_link
+                        font-size: 10px
+
+@media (max-width: 991px)
+    header
+        nav
+            .menu
+                padding: 10px 30px
+                &_link
+                    font-size: 12px
+
+    .subheader
+        .logo
+            img
+                width: 100%
+        .logo_text
+            font-size: 12px
+        .phone_text
+            font-size: 11px
+        .phone
+            font-size: 18px
+            .point
+                bottom: 6px
+        .call_order
+            width: 100px
+            height: 42px
+            font-size: 11px
+            line-height: 1.2
+            font-weight: 300
+
+    .main
+        &_header
+            font-size: 42px
+        &_subheader
+            font-size: 26px
+
+    .reason
+        &_header
+            font-size: 35px
+        &_wrap
+            flex-direction: column
+        &_desc
+            margin-top: 20px
+            max-width: 310px
+
+    .mobile
+        &_wrap
+            padding-top: 40px
+            width: 222px
+            height: 200px
+        &_text
+            font-size: 16px
+
+            line-height: 1.4
+
+    footer
+        nav
+            .menu
+                width: 330px
+                &-1, &-2
+                    &_link
+                        font-size: 14px
+                &-2
+                    &_link
+                        font-size: 10px
+            .stores
+                img
+                    max-width: 100%
+
+@media (max-width: 767px)
+    header
+        nav
+            .menu
+                position: fixed
+                flex-direction: column
+                justify-content: flex-start
+                top: 0
+                right: -100%
+                width: 50%
+                height: 100vh
+                padding: 45px 20px
+                background-color: rgba(0,0,0,.8)
+                transition: all .8s ease-in-out
+                &_item_divider
+                    display: none
+                &_link
+                    margin-top: 25px
+                    font-size: 20px
+                &_active
+                    right: 0
+            .hamburger
+                display: block
+                position: absolute
+                top: 50%
+                transform: translateY(-50%)
+                right: 25px
+                width: 30px
+                span
+                    display: block
+                    height: 3px
+                    background: $_ffffff
+                    margin: 5px 0
+                    transition: all .8s
+                &_active
+                    span
+                        margin: -3px auto
+                        &:nth-child(1)
+                            transform: rotate(45deg)
+                        &:nth-child(2)
+                            display: none
+                        &:nth-child(3)
+                            transform: rotate(-45deg)
+
+        .subheader
+            .hidden
+                display: none
+            .visible
+                display: block
+            .phone
+                font-size: 15px
+            .call_order
+                width: 50%
+                margin: 8px 0 0 50%
+
+    .main
+        &_header
+            line-height: 50px
+        &_subheader
+            line-height: 36px
+
+    .reason
+        &_header
+            line-height: 40px
+        &_desc
+            max-width: 400px
+            margin: 20px 10px
+
+    .mobile
+        &_header
+            line-height: 40px
+        &_wrap
+            padding-top: 40px
+            width: 380px
+            height: 320px
+        &_text
+            font-size: 24px
+
+    .choice
+        .black
+            .choice_header
+                h2
+                    line-height: 40px
+
+    .conditions
+        &_header
+            h2
+                line-height: 40px
+        .profit
+            display: block
+            margin-bottom: 40px
+
+    footer
+        min-height: 250px
+        nav
+            flex-direction: column
+            div
+                width: 85%
+                margin: 0 auto 15px
+            .social
+                justify-content: center
+                &_item
+                    &:last-child
+                        margin-right: 0
+            .stores
+                justify-content: center
+
+@media (max-width: 575px)
+    header
+        nav
+            .menu
+                &_link
+                    font-size: 16px
+
+    .main
+        &_text
+            font-size: 16px
+            margin: 20px 10px 0
+
+    .reason
+        &_desc
+            max-width: 290px
+            margin: 15px 5px
+
+    .mobile
+        &_wrap
+            padding: 35px 8px 0
+            width: 290px
+            height: 260px
+        &_text
+            font-size: 20px
+
+    .cities
+        &_header
+            h2
+                line-height: 40px
+        &_all
+            text-align: center
+
+    footer
+        nav
+            .menu
+                width: 270px
+                &-1
+                    &_link
+                        font-size: 12px
+                &-2
+                    &_link
+                        font-size: 9px

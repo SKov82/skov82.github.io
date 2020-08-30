@@ -1,0 +1,1088 @@
+@charset "UTF-8";
+/* line 1, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1;
+}
+
+/* line 1, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+header {
+  position: relative;
+}
+
+/* line 3, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+header nav {
+  position: fixed;
+  width: 100%;
+  height: 51px;
+  background-color: #212121;
+  z-index: 1;
+}
+
+/* line 9, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+header nav .menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 15, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+header nav .menu_item {
+  display: flex;
+  align-items: center;
+}
+
+/* line 18, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+header nav .menu_link {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+/* line 23, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+header nav .menu_link:hover {
+  color: #1eacc7;
+}
+
+/* line 25, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+header nav .menu_item_divider {
+  width: 2px;
+  height: 31px;
+  border: 1px dotted #000000;
+}
+
+/* line 29, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+header nav .hamburger {
+  display: none;
+}
+
+/* line 32, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.subheader {
+  position: absolute;
+  width: 100%;
+  top: 51px;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 38, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.subheader .logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 42, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.subheader .logo_text {
+  margin-top: 6px;
+  opacity: .5;
+  font-size: 13px;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+/* line 48, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.subheader .phone_text {
+  margin-top: 23px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: right;
+}
+
+/* line 54, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.subheader .phone {
+  display: block;
+  margin-top: 8px;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: right;
+}
+
+/* line 63, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.subheader .phone .point {
+  position: absolute;
+  bottom: 9px;
+}
+
+/* line 66, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.subheader .visible {
+  display: none;
+}
+
+/* line 68, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.subheader .call_order {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  background-image: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  border: 3px solid rgba(0, 0, 0, 0.07);
+  box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* line 22, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_mixins.sass */
+.subheader .call_order:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 83, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.main {
+  background: url("../img/bg_main.jpg") center center/cover no-repeat;
+  min-height: 664px;
+  padding-top: 202px;
+  padding-bottom: 135px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* line 90, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.main .wrap {
+  padding: 0;
+}
+
+/* line 92, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.main_header {
+  font-size: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+/* line 96, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.main_subheader {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* line 101, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.main_text {
+  margin-top: 23px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/* line 106, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.main .send_btn {
+  margin-top: 118px;
+  width: 259px;
+  height: 63px;
+  background-image: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  border: 3px solid rgba(0, 0, 0, 0.07);
+  box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+/* line 22, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_mixins.sass */
+.main .send_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 120, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.reason {
+  min-height: 900px;
+  padding-top: 71px;
+  padding-bottom: 65px;
+}
+
+/* line 124, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.reason .info {
+  margin: 0 auto;
+  padding-top: 7px;
+  width: 112px;
+  height: 24px;
+  background-color: #000000;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* line 126, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.reason_header {
+  margin: 38px 0 0;
+  color: #222222;
+  font-size: 38px;
+  line-height: 27px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 129, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.reason .row {
+  margin-top: 10px;
+  align-items: center;
+}
+
+/* line 132, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.reason_wrap {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 137, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.reason .round {
+  display: flex;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 145, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.reason_desc {
+  margin-left: 26px;
+  max-width: 342px;
+}
+
+/* line 148, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.reason .desc_title {
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #1eacc7;
+}
+
+/* line 153, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.reason .desc_text {
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 300;
+  color: #202020;
+  text-align: justify;
+}
+
+/* line 160, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.mobile {
+  min-height: 864px;
+  padding-top: 48px;
+  padding-bottom: 80px;
+  background-color: #ffffff;
+}
+
+/* line 165, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.mobile .info {
+  margin: 0 auto;
+  padding-top: 7px;
+  width: 112px;
+  height: 24px;
+  background-color: #000000;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* line 167, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.mobile_header {
+  margin: 38px 0 0;
+  color: #222222;
+  font-size: 38px;
+  line-height: 27px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 170, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.mobile .subtitle {
+  margin-top: 19px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #222222;
+  text-align: center;
+}
+
+/* line 176, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.mobile .row {
+  margin-top: 13px;
+}
+
+/* line 178, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.mobile_wrap {
+  position: relative;
+  margin: 19px auto 0;
+  width: 320px;
+  height: 280px;
+  padding-top: 85px;
+}
+
+/* line 184, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.mobile_wrap_1 {
+  background: url("../img/mobile_1.jpg") center center/cover no-repeat;
+}
+
+/* line 186, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.mobile_wrap_2 {
+  background: url("../img/mobile_2.jpg") center center/cover no-repeat;
+}
+
+/* line 188, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.mobile_wrap_3 {
+  background: url("../img/mobile_3.jpg") center center/cover no-repeat;
+}
+
+/* line 190, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.mobile_wrap_4 {
+  background: url("../img/mobile_4.jpg") center center/cover no-repeat;
+}
+
+/* line 192, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.mobile_wrap_5 {
+  background: url("../img/mobile_5.jpg") center center/cover no-repeat;
+}
+
+/* line 194, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.mobile_wrap_6 {
+  background: url("../img/mobile_6.jpg") center center/cover no-repeat;
+}
+
+/* line 196, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.mobile_text {
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* line 203, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.mobile .round {
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  background-color: #000000;
+  border-radius: 100%;
+  margin: 0 auto;
+  padding: 6px;
+  cursor: pointer;
+}
+
+/* line 218, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.mobile .round:hover {
+  background-color: #222222;
+}
+
+/* line 222, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.choice .black {
+  width: 100%;
+  height: 499px;
+  background-color: #070716;
+  padding-top: 57px;
+}
+
+/* line 227, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.choice .black .info {
+  margin: 0 auto;
+  padding-top: 7px;
+  width: 112px;
+  height: 24px;
+  background-color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #070716;
+  text-align: center;
+}
+
+/* line 229, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.choice .black .choice_header {
+  margin-top: 32px;
+}
+
+/* line 231, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.choice .black .choice_header h2 {
+  color: #ffffff;
+  font-size: 38px;
+  line-height: 27px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 233, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.choice .black .subtitle {
+  margin-top: 19px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+/* line 239, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.choice .black img {
+  max-width: 100%;
+  display: block;
+  margin: 56px auto 0;
+}
+
+/* line 243, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.choice .white {
+  height: 397px;
+  background-color: #ffffff;
+  padding-top: 217px;
+}
+
+/* line 247, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.choice .white .text {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #222222;
+  text-align: center;
+}
+
+/* line 254, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.conditions {
+  min-height: 919px;
+  padding: 68px 0 74px;
+}
+
+/* line 257, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.conditions .info {
+  margin: 0 auto;
+  padding-top: 7px;
+  width: 112px;
+  height: 24px;
+  background-color: #000000;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* line 259, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.conditions_header h2 {
+  margin-top: 33px;
+  color: #222222;
+  font-size: 38px;
+  line-height: 27px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 262, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.conditions .row {
+  margin-top: 33px;
+}
+
+/* line 264, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.conditions .row .wrap {
+  margin-left: 8px;
+  font-size: 17px;
+  font-weight: 300;
+  color: #1ca8c3;
+}
+
+/* line 269, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.conditions .row .title {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 19px;
+}
+
+/* line 273, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.conditions .row .list li {
+  margin-left: 10px;
+  position: relative;
+  margin-bottom: 10px;
+  line-height: 24px;
+  color: #222222;
+  list-style-type: none;
+}
+
+/* line 280, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.conditions .row .list li:before {
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  content: '';
+  display: block;
+  vertical-align: top;
+  width: 21px;
+  height: 20px;
+  background: url("../icons/tick_blue.png") center center/cover no-repeat;
+}
+
+/* line 291, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.conditions .row .req {
+  margin-top: 62px;
+}
+
+/* line 293, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.conditions .row .req .title {
+  color: #ff5656;
+}
+
+/* line 296, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.conditions .row .req .list li:before {
+  background: url("../icons/tick_red.png") center center/cover no-repeat;
+}
+
+/* line 299, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.cities {
+  background: url("../img/bg_world.jpg") center center no-repeat;
+  min-height: 717px;
+  padding-top: 49px;
+  position: relative;
+}
+
+/* line 304, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.cities .info {
+  margin: 0 auto;
+  padding-top: 7px;
+  width: 112px;
+  height: 24px;
+  background-color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #070716;
+  text-align: center;
+  width: 76px;
+}
+
+/* line 307, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.cities_header {
+  margin-top: 32px;
+}
+
+/* line 309, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.cities_header h2 {
+  color: #ffffff;
+  font-size: 38px;
+  line-height: 27px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 311, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.cities .subtitle {
+  margin-top: 19px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+/* line 317, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.cities_all {
+  position: absolute;
+  bottom: 49px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 322, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.cities_all .link {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #1fbad6;
+}
+
+/* line 328, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+.cities_all .link:hover {
+  color: #ffffff;
+}
+
+/* line 331, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+footer {
+  padding-top: 14px;
+  min-height: 156px;
+  position: relative;
+}
+
+/* line 335, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+footer .divider {
+  margin: 0 auto;
+  width: 299px;
+  height: 4px;
+  background-color: #1fbad6;
+}
+
+/* line 340, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+footer nav {
+  margin: 34px 23px 19px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 344, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+footer nav div {
+  width: 33%;
+}
+
+/* line 346, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+footer nav .social {
+  display: flex;
+}
+
+/* line 348, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+footer nav .social_item {
+  display: flex;
+  margin-right: 8px;
+  width: 32px;
+  height: 32px;
+  background-color: #070716;
+  border-radius: 100%;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 358, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+footer nav .social_item:hover {
+  text-decoration: none;
+  background-color: #1eacc7;
+  color: #000000;
+}
+
+/* line 362, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+footer nav .menu {
+  display: block;
+  width: 392px;
+}
+
+/* line 365, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+footer nav .menu-1, footer nav .menu-2 {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 371, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+footer nav .menu-1_link, footer nav .menu-2_link {
+  align-items: center;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #070716;
+}
+
+/* line 378, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+footer nav .menu-2 {
+  margin-top: 12px;
+  justify-content: space-between;
+}
+
+/* line 381, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+footer nav .menu-2_link {
+  font-size: 11px;
+  color: #999999;
+}
+
+/* line 384, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+footer nav .stores {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 387, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+footer nav .stores a {
+  padding-left: 6px;
+}
+
+/* line 389, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+footer .language {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #1fbad6;
+}
+
+/* line 397, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_uber.sass */
+footer .line {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 8px;
+  background-color: #222222;
+}
+
+@media (max-width: 1199px) {
+  /* line 4, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  header nav .menu_link {
+    font-size: 14px;
+  }
+  /* line 8, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .subheader .phone_text {
+    font-size: 11px;
+  }
+  /* line 10, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .subheader .phone {
+    font-size: 18px;
+  }
+  /* line 12, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .subheader .phone .point {
+    bottom: 12px;
+  }
+  /* line 14, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .subheader .call_order {
+    width: 130px;
+    height: 42px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  /* line 21, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .main_header {
+    font-size: 56px;
+  }
+  /* line 23, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .main_subheader {
+    font-size: 34px;
+  }
+  /* line 27, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .reason_desc {
+    max-width: 312px;
+  }
+  /* line 31, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .mobile_wrap {
+    width: 300px;
+    height: 264px;
+  }
+  /* line 34, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .mobile_text {
+    font-size: 22px;
+  }
+  /* line 39, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  footer nav .menu {
+    width: 330px;
+  }
+  /* line 42, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  footer nav .menu-1_link, footer nav .menu-2_link {
+    font-size: 14px;
+  }
+  /* line 45, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  footer nav .menu-2_link {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 51, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  header nav .menu {
+    padding: 10px 30px;
+  }
+  /* line 53, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  header nav .menu_link {
+    font-size: 12px;
+  }
+  /* line 58, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .subheader .logo img {
+    width: 100%;
+  }
+  /* line 60, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .subheader .logo_text {
+    font-size: 12px;
+  }
+  /* line 62, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .subheader .phone_text {
+    font-size: 11px;
+  }
+  /* line 64, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .subheader .phone {
+    font-size: 18px;
+  }
+  /* line 66, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .subheader .phone .point {
+    bottom: 6px;
+  }
+  /* line 68, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .subheader .call_order {
+    width: 100px;
+    height: 42px;
+    font-size: 11px;
+    line-height: 1.2;
+    font-weight: 300;
+  }
+  /* line 76, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .main_header {
+    font-size: 42px;
+  }
+  /* line 78, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .main_subheader {
+    font-size: 26px;
+  }
+  /* line 82, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .reason_header {
+    font-size: 35px;
+  }
+  /* line 84, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .reason_wrap {
+    flex-direction: column;
+  }
+  /* line 86, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .reason_desc {
+    margin-top: 20px;
+    max-width: 310px;
+  }
+  /* line 91, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .mobile_wrap {
+    padding-top: 40px;
+    width: 222px;
+    height: 200px;
+  }
+  /* line 95, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .mobile_text {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  /* line 102, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  footer nav .menu {
+    width: 330px;
+  }
+  /* line 105, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  footer nav .menu-1_link, footer nav .menu-2_link {
+    font-size: 14px;
+  }
+  /* line 108, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  footer nav .menu-2_link {
+    font-size: 10px;
+  }
+  /* line 111, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  footer nav .stores img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 117, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  header nav .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: flex-start;
+    top: 0;
+    right: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 45px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all .8s ease-in-out;
+  }
+  /* line 128, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  header nav .menu_item_divider {
+    display: none;
+  }
+  /* line 130, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  header nav .menu_link {
+    margin-top: 25px;
+    font-size: 20px;
+  }
+  /* line 133, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  header nav .menu_active {
+    right: 0;
+  }
+  /* line 135, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  header nav .hamburger {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 25px;
+    width: 30px;
+  }
+  /* line 142, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  header nav .hamburger span {
+    display: block;
+    height: 3px;
+    background: #ffffff;
+    margin: 5px 0;
+    transition: all .8s;
+  }
+  /* line 149, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  header nav .hamburger_active span {
+    margin: -3px auto;
+  }
+  /* line 151, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  header nav .hamburger_active span:nth-child(1) {
+    transform: rotate(45deg);
+  }
+  /* line 153, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  header nav .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 155, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  header nav .hamburger_active span:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+  /* line 159, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  header .subheader .hidden {
+    display: none;
+  }
+  /* line 161, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  header .subheader .visible {
+    display: block;
+  }
+  /* line 163, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  header .subheader .phone {
+    font-size: 15px;
+  }
+  /* line 165, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  header .subheader .call_order {
+    width: 50%;
+    margin: 8px 0 0 50%;
+  }
+  /* line 170, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .main_header {
+    line-height: 50px;
+  }
+  /* line 172, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .main_subheader {
+    line-height: 36px;
+  }
+  /* line 176, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .reason_header {
+    line-height: 40px;
+  }
+  /* line 178, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .reason_desc {
+    max-width: 400px;
+    margin: 20px 10px;
+  }
+  /* line 183, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .mobile_header {
+    line-height: 40px;
+  }
+  /* line 185, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .mobile_wrap {
+    padding-top: 40px;
+    width: 380px;
+    height: 320px;
+  }
+  /* line 189, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .mobile_text {
+    font-size: 24px;
+  }
+  /* line 195, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .choice .black .choice_header h2 {
+    line-height: 40px;
+  }
+  /* line 200, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .conditions_header h2 {
+    line-height: 40px;
+  }
+  /* line 202, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .conditions .profit {
+    display: block;
+    margin-bottom: 40px;
+  }
+  /* line 206, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  footer {
+    min-height: 250px;
+  }
+  /* line 208, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  footer nav {
+    flex-direction: column;
+  }
+  /* line 210, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  footer nav div {
+    width: 85%;
+    margin: 0 auto 15px;
+  }
+  /* line 213, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  footer nav .social {
+    justify-content: center;
+  }
+  /* line 216, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  footer nav .social_item:last-child {
+    margin-right: 0;
+  }
+  /* line 218, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  footer nav .stores {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 225, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  header nav .menu_link {
+    font-size: 16px;
+  }
+  /* line 229, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .main_text {
+    font-size: 16px;
+    margin: 20px 10px 0;
+  }
+  /* line 234, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .reason_desc {
+    max-width: 290px;
+    margin: 15px 5px;
+  }
+  /* line 239, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .mobile_wrap {
+    padding: 35px 8px 0;
+    width: 290px;
+    height: 260px;
+  }
+  /* line 243, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .mobile_text {
+    font-size: 20px;
+  }
+  /* line 248, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .cities_header h2 {
+    line-height: 40px;
+  }
+  /* line 250, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  .cities_all {
+    text-align: center;
+  }
+  /* line 255, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  footer nav .menu {
+    width: 270px;
+  }
+  /* line 258, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  footer nav .menu-1_link {
+    font-size: 12px;
+  }
+  /* line 261, ../../Users/Сергей/WebstormProjects/exam/Uber/sass/_media.sass */
+  footer nav .menu-2_link {
+    font-size: 9px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

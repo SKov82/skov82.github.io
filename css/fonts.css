@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin'),
+         local('Roboto-Thin'),
+         url('../fonts/Roboto-Thin.woff') format('woff'),
+         url(../fonts/Roboto-Thin.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'),
+         local('Roboto-Light'),
+         url('../fonts/Roboto-Light.woff') format('woff'),
+         url(../fonts/Roboto-Light.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'),
+         local('Roboto-Regular'),
+         url('../fonts/Roboto-Regular.woff') format('woff'),
+         url(../fonts/Roboto-Regular.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold'),
+         local('Roboto-Bold'),
+         url('../fonts/Roboto-Bold.woff') format('woff'),
+         url(../fonts/Roboto-Bold.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Nokia Sans S60 Regular';
+    src: local('Nokia Sans S60'),
+         local('Nokia Sans S60 Regular'),
+         url('../fonts/Nokia Sans S60 Regular.woff') format('woff'), /* chrome、firefox */
+         url('../fonts/Nokia Sans S60 Regular.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    font-style: normal;
+    font-weight: 400;
+}
